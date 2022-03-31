@@ -1,0 +1,100 @@
+body{
+    background-image: url(im.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(160, 190, 207);
+}
+button {
+    padding: 20px 50px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      border: 0px;
+      background:transparent ;
+      position: relative;
+      transition: all .2s;
+      overflow: hidden;
+      color: #fff;
+      border-radius: 30px;
+      box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+      clip-path: circle(50% at 50% 50%);
+    }
+    button::after {
+      content: '';
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      top: -300px;
+      left: -100px;
+      background-image: linear-gradient(225deg, #36c56d 0%, #26caf8 50%, #c625d0 100%);
+      z-index: -1;
+      transition: all .5s;
+    }
+    button:hover::after {
+      transform: rotate(150deg);
+    }
+    
+    button:hover {
+      transform: translate(0,-6px);
+      box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+    }
+    
+    form{
+      background: rgba(141, 180, 218, 0.3);
+      padding: 3rem;
+      height: 460px;
+      width: 300px;
+      border-radius: 20px;
+      border-left: 1px solid rgba(255, 255, 255, .3);
+      border-top: 1px solid rgba(255, 255, 255, .3);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      -moz-backdrop-filter: blur(10px);
+      box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+      text-align: center;
+      margin-top: -100px;
+      
+    
+    }
+  .l{
+    margin-top: 300px;
+    margin-right: 50px;
+    clip-path: circle(50%  50% 50%);
+    margin-top: 80px;
+  }
+  .l:hover a{
+    opacity: 0;
+  }
+  .l:hover a{
+    opacity: 1;
+  }
+  
+  .u{
+    margin-top: -100px;
+    color:rgb(236, 237, 238);
+  }
+  .xx{
+   margin-top: -50px;
+  }
+  .v {
+    
+      font-size: 20px;
+      color: #fff;
+      clip-path: circle(15%);
+      background-image: linear-gradient(225deg, #36c56d 0%, #26caf8 50%, #c625d0 100%);
+      padding-left: 20px;
+  }
+  .v:hover{
+    box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+  }
+  .e{
+    clip-path:ellipse(15%);
+    background-color: #fff;
+  }
+  .a{
+      margin-left: 700px;
+      margin-top: 150px;
+  }
+  .fff{
+      margin-top: -100px;
+      margin-right: 700px;
+  }
