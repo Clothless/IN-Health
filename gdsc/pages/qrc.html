@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bloggy - Personal Blog Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="../css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                    <img class="mx-auto d-block w-100 bg-primary img-fluid rounded-circle mb-4 p-3" src="../images/qrc.png" alt="Image">
+                    <h1 class="font-weight-bold">Chaibedraa Ibrahim</h1>
+                    <p class="mb-4">
+                        <strong>Age:</strong> 22 Years old<br><strong>Gender:</strong> Male<br><strong>ID:</strong> 2705
+                    </p>
+                    <div class="d-flex justify-content-center mb-5">
+                        <a class="btn btn-outline-primary mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-primary mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="../images/qrc.png" class="btn btn-lg btn-block btn-primary mt-auto">Download QR code</a>
+                </div>
+                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+                </div>
+            </div>
+            <center>
+            <div class="content details">
+                <div class="wrapper qr-page">
+                    <section headerlabel="3. Medical Information">
+                        <fieldset><legend>Blood Type</legend>
+                            <ifmode mode="ENTER">
+                                        </ifmode><table class="baseline-aligned">
+                                <tbody><tr>
+                                    <td><strong>O+</strong></td>
+                                    <td><obs conceptid="140228" style="radio" answerconceptids="1065,1066,1067" answerlabels="Yes,No,Unknown"></obs></td>
+                                    <td class="lookup">
+                                            <lookup expression="fn.latestObs(140228).valueCoded.name" class="value">
+                                        </lookup></td>
+                                    
+                                </tr>
+                            </tbody></table>
+                            </fieldset>
+                        <br>
+                        <fieldset><legend>Family History</legend>
+                        <ifmode mode="ENTER">
+                                    </ifmode><table class="baseline-aligned">
+                            <tbody><tr>
+                                <td>Family History of Diabetes Mellitus:</td>
+                                
+                                
+                            </tr>
+                        </tbody></table>
+                        </fieldset>
+                
+                        <br>
+                        <br>
+                        
+                        <fieldset><legend>Past Medical History</legend>
+                        <table class="baseline-aligned">
+                        <tr>
+                                <td>Diabetes Mellitus</td></tr>
+                                <tr><td>Hypertension</td></tr>
+                                <tr><td>Myocardial Infarction</td></tr>
+                                <tr><td>CerebroVascular Accident</td></tr>
+                            </tr>
+                            
+                            </tbody></table>
+                        </td>
+                        </tr>
+                        </tbody></table>
+                        </fieldset>
+                        
+                        <br>
+                        <br>
+                        <fieldset><legend>Past Surgical History</legend>
+                        <ifmode mode="ENTER">
+                                    </ifmode><table class="baseline-aligned">
+                            <tbody><tr>
+                                <td>Amputation:</td>
+                                <td><obs conceptid="161568" answerconceptids="161567,161566,1066" answerlabels="Yes - DM Related,Yes DM not Related,No" style="radio"></obs></td>
+                                <td class="lookup">
+                                        <lookup expression="fn.latestObs(161568).valueCoded.name" class="value">
+                                    </lookup></td>
+                                
+                            </tr>
+                        </tbody></table>
+                        </fieldset>
+                            
+                                <br>
+                            
+                        
+                        <br>
+                        <fieldset><legend>Social History</legend>
+                        <ifmode mode="ENTER">
+                                    </ifmode><table class="baseline-aligned">
+                            <tbody><tr>
+                                <td>Smoker:</td>
+                                <td><obs conceptid="152722" answerconceptids="1065,1066,1067" answerlabels="Yes,No,Unknown" style="radio"></obs></td>
+                                <td class="lookup">
+                                        <lookup expression="fn.latestObs(152722).valueCoded.name" class="value">
+                                    </lookup></td>
+                                
+                            </tr>
+                        </tbody></table>
+                        </fieldset>
+                
+                    </section>
+                </div>
+            </div>
+            </center>
+        <script src="../js/main.js"></script>
+    </body>
+</html>

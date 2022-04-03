@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>profile</title>
+      
+
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="../css/prfl.css">
+
+      <!-- font-awesome -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- greensock -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+      <script src="https://kit.fontawesome.com/bc0a87b414.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+      <div class="gauche">
+            <h2>Mental Health</h2>
+      </div>
+      <div class="droite">
+            <h2>Physical Health</h2>
+      </div>
+
+      <div class="nav">
+            <ul class="gg">
+                  <a href="consultation.html" style="color: white;"><li>Physical Consultation</li></a>
+                  <a href="consultation.html" style="color: white;"><li>Psychological  Consultation</li></a>
+                  <li>Good vibes</li>
+                  <li></li>
+            </ul>
+      </div>
+      <div class="social">
+            <ul>
+                  <li><a href="search"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                  
+                  <li><a href="b.html"><i class="fa fa-id-card" aria-hidden="true"></i></a></li>
+                  <li><a href="qrc.html"><i class="fas fa-file-medical" aria-hidden="true"></i></a></li>
+                  <li><a href="doctors.html"><i class="fa fa-notes-medical" aria-hidden="true"></i></a></li>
+                  <li><a href="b.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i></a></li>
+                  <li><a href="qrc.html"><i class="fa-solid fa-qrcode" aria-hidden="true"></i></a></li>
+            </ul>
+      </div>
+
+      <div class="ii">
+      <table width="700px" height="200px">
+         <tr> <td>
+            <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front uu">
+                      <h2 class="pp">Meditation</h2>
+                    </div>
+                    <div class="flip-box-back">
+                      <h2>Meditation</h2>
+                      <ul type="none" class="mmm">
+                            <li><a href="" class="mmm">Fix your sleep</a> </li>
+                            <li><a href="" class="mmm">Breathing session</a></li>
+                            <li><a href="" class="mmm">Meditate</a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+         </td>
+         <td></td>
+         <td>
+            <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front u1">
+                      <h2 class="pp">Work out</h2>
+                    </div>
+                    <div class="flip-box-back">
+                      <h2>Work out</h2>
+                      <ul type="none">
+                        <li><a href=""class="mmm">coach online</a></li>
+                        <li><a href=""class="mmm">Fit Me</a></li>
+                        <li><a href=""class="mmm">Progressing</a></li>
+                        <li><a href=""class="mmm">calories</a></li>
+                  </ul>
+                    </div>
+                  </div>
+                </div>
+         </td>
+         <td ></td>
+         <td>
+            <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front u2">
+                      <h2 class="pp">Daily Journaling</h2>
+                    </div>
+                    <div class="flip-box-back">
+                      <h2>Daily Journaling</h2>
+                      <ul type="none">
+                        <li><a href=""class="mmm">paint</a></li>
+                        <li><a href=""class="mmm">write</a></li>
+                        <li><a href=""class="mmm">speak</a></li>
+
+                  </ul>
+                    </div>
+                  </div>
+                </div>
+         </td>
+      </tr> 
+      </table>
+           </div>
+
+
+           
+
+
+      <script type="text/javascript">
+
+
+            TweenMax.to('.gauche', 2, {
+                  delay: 1.5,
+                  top: "-150%",
+                  ease: Expo.easeInOut
+            })
+            TweenMax.to('.gauche h2', 2, {
+                  delay: 1,
+                  opacity: 0,
+                  y: -100,
+                  ease: Expo.easeInOut
+            })
+            TweenMax.to('.droite', 2, {
+                  delay: 2.5,
+                  top: "+100%",
+                  ease: Expo.easeInOut
+            })
+            TweenMax.to('.droite h2', 2, {
+                  delay: 2,
+                  opacity: 0,
+                  y: +60,
+                  ease: Expo.easeInOut
+            })
+
+
+            TweenMax.from(".nav", 2, {
+                  delay: 3,
+                  opacity: 0,
+                  y: -60,
+                  ease: Expo.easeInOut
+            })
+            TweenMax.from(".social", 2, {
+                  delay: 3,
+                  opacity: 0,
+                  y: 360,
+                  ease: Expo.easeInOut
+            })
+            TweenMax.from(".ii", 2, {
+                  delay: 3,
+                  opacity: 0,
+                  x: 360,
+                  ease: Expo.easeInOut
+            })
+
+      </script>
+</body>
+
+</html> 
